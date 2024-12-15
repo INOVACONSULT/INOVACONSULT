@@ -93,3 +93,119 @@
 </body>
 </html>
 
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #2d3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Header */
+header {
+    background-color: #2d3e50;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .navigation li a {
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.hero {
+    background-color: #3498db;
+    color: white;
+}
+
+.about-us, .courses, .community {
+    background-color: #ecf0f1;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
